@@ -1,0 +1,27 @@
+body{
+
+    width: 90%;
+    align-items: center;
+    border: 1px solid blue;
+    height: 100%;
+    padding-bottom: 70%;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.container {
+    display: flex;
+    gap: 10px;
+    flex-direction: row-reverse; 
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid black;
+    margin: 1px auto;
+    padding: 10px;
+}
